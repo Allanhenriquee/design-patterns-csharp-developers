@@ -1,8 +1,28 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Creational", "01 - Creational", "{5F67F9F3-0FD2-408B-9C10-67596043BA5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Structural", "02 - Structural", "{DBFB6C91-DC46-4720-AC8F-20D45CEF0DB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Behavioral", "03 - Behavioral", "{8C4E50D6-377E-4964-9A7B-EFB7EAD4B1F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Builder", "01 - Builder", "{26E26296-7346-49E5-B026-5EB5D206934B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderSimple.Console", "src\01 - Creational\01 - Builder\BuilderSimple.Console\BuilderSimple.Console.csproj", "{C2025F93-1637-409B-923B-62530E11A23A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26E26296-7346-49E5-B026-5EB5D206934B} = {5F67F9F3-0FD2-408B-9C10-67596043BA5C}
+		{C2025F93-1637-409B-923B-62530E11A23A} = {26E26296-7346-49E5-B026-5EB5D206934B}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2025F93-1637-409B-923B-62530E11A23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2025F93-1637-409B-923B-62530E11A23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2025F93-1637-409B-923B-62530E11A23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2025F93-1637-409B-923B-62530E11A23A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
