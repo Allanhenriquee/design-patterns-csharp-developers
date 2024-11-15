@@ -1,5 +1,7 @@
 # Documentação do Projeto Builder
 
+[Link do Artigo no Medium](https://allanhenriquee.medium.com/descomplicando-o-builder-pattern-em-c-quando-e-como-usar-935a2bdaee47 "Descomplicando o Builder Pattern em csharp")
+
 ## Visão Geral
 
 Este projeto implementa o padrão de design Builder para a criação de objetos `OrderSimple`. O objetivo é facilitar a construção de instâncias de pedidos, permitindo que os usuários configurem produtos, métodos de pagamento, descontos, impostos e endereços de entrega de forma fluida e intuitiva.
@@ -77,4 +79,3 @@ var simplifiedOrder = new OrderSimple.OrderSimpleBuilder()
 
 Console.WriteLine(simplifiedOrder);
 ```
-
